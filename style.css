@@ -1,0 +1,46 @@
+
+#app {
+  font-family: Avenir, Helvetica, Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-align: center;
+  color: #2c3e50;
+}
+
+.small_container{
+  height : 70px;
+}
+
+body { 
+  padding-top: 70px; 
+}
+
+/* 폰트변경 */
+div {
+  font-family: 'CookieRun-Regular';
+}
+
+@font-face {
+    font-family: 'CookieRun-Regular';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/CookieRun-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/*가운데 정렬*/
+.outer1 {
+  /* margin-left: 7%; */
+  display: flex;
+  justify-content: center;
+}
+
+.row {
+  /* margin-left: 7%; */
+  display: flex;
+  justify-content: center;
+}
+
+.main_title {
+  display:inline;
+}
+
